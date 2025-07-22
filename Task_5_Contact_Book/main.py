@@ -1,4 +1,4 @@
-#password is "codsoft@123"
+#password is "garv@123"
 import json
 import os
 import csv
@@ -107,7 +107,7 @@ def sort_contacts():
 
 def secure_mode():
     password = input("Enter access password: ")
-    if password != "codsoft@123":
+    if password != "garv@123":
         print("🚫 Incorrect password.")
         exit()
     print("✅ Access granted!\n")
